@@ -209,8 +209,8 @@ def play_audio(video_path):
 def main():
 	# 宽，高
 	size = (64, 48)
-	# 视频路径，换成你自己的
-	video_path = "1.mp4"
+	# 视频路径，换成你自己的视频，该视频在该源码的当前文件夹，我把它命名为test.mp4
+	video_path = "test.mp4"
 	seconds = 30  # 只转换三十秒
 	video_chars, fps = get_video_chars(video_path, size, seconds)
 
